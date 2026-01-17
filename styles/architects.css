@@ -104,4 +104,68 @@
         margin: auto;
     }
 
-   
+    .qList{
+            display: flex;
+            height: 550px;
+            width: 65%;
+            padding-top: 60px;
+            gap: 40px;
+            align-items: center;
+            margin: auto;
+        }
+
+        .team img{
+            padding: 2px;
+            width: 48%;
+            height: 45%;
+        }
+
+        .features{
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            font-size: 44px;
+        }
+
+        .features h2{
+            font-size: 40px;
+            font-weight: 100;
+            color: rgba(0, 0, 0, 0.603);
+        }
+        #black{
+             font-size: 40px;
+            font-weight: 1000;
+            color: black;
+        }
+
+        #yellow{
+
+             font-size: 40px;
+            font-weight: 1000;
+            color: oklab(75.053% 0.09416 0.15231 / 0.986);
+        }
+
+        .features p{
+            font-size: 16px;
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+
+
+         .features button
+    {
+        font-size: 18px;
+        height: 45px;
+        width: 130px;
+        background-color: rgb(235, 138, 11);
+        border-radius: 10px;
+        color: aliceblue;
+        font-weight: bolder;
+    }
+
+    .features button:hover{
+        background-color: rgb(216, 188, 26);
+        box-shadow: 10px 15px 13px rgb(95, 206, 118);
+
+    }

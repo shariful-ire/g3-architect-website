@@ -325,3 +325,33 @@
     font-size: 38px;
     padding-bottom: 10px;
 }
+
+.sponsers{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sponsers h1{
+    font-size: 34px;
+    padding-bottom: 40px;
+}
+.sponsers p{
+    width: 60%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.Logo{
+    height: auto;
+    display: flex;
+    
+    justify-content: space-between;
+    width: 80%;
+    filter: grayscale(100%);
+}
